@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <string-array name="phone_options" tools:ignore="MissingTranslation">
+        <item>Call</item>
+        <item>Message</item>
+    </string-array>
+
+</resources>

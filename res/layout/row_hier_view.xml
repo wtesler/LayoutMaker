@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="45dp"
+    android:background="@color/darkyellow"
+    android:orientation="horizontal"
+    android:weightSum="100" >
+
+    <TextView
+        android:id="@+id/tv_layer"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/tv_index"
+        android:layout_width="20dp"
+        android:layout_height="match_parent"
+        android:background="@color/gang_yellow" />
+
+    <TextView
+        android:id="@+id/tv_id"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="72"
+        android:gravity="center"
+        android:text=""
+        android:textColor="@color/black"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="14"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="5dp" >
+
+        <Button
+            android:id="@+id/bt_duplicate"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@layout/duplicate_button"
+            android:gravity="center" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_delete"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="14"
+        android:gravity="center"
+        android:shadowColor="#000123"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="1"
+        android:text="@string/_"
+        android:textColor="@color/red"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+</LinearLayout>

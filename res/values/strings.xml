@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Layout Designer Pro</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_home">Layout Designer Pro</string>
+    <string name="title_activity_main">Layout Designer Pro</string>
+    <string name="title_activity_profile_test">Layout Designer Pro</string>
+    <string name="instructions">You are currently not in a gang. Invite friends or bump devices to tether together.</string>
+    <string name="colors">Colors</string>
+    <string name="tasker_1">Choose a task</string>
+    <string name="tasker_2">Choose someone</string>
+    <string name="tasker_3">Choose a condition</string>
+    <string name="edittext">EditText</string>
+    <string name="button">Button</string>
+    <string name="textview">TextView</string>
+    <string name="imageview">ImageView</string>
+    <string name="views">Views</string>
+    <string name="layers">Layers</string>
+    <string name="_">×</string>
+    <string name="attributes">Attributes</string>
+    <string name="x">X</string>
+    <string name="_2">+</string>
+
+</resources>
